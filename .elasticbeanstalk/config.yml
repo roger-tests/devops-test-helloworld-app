@@ -1,0 +1,25 @@
+branch-defaults:
+  default:
+    environment: devops-test-helloworld-app
+    group_suffix: null
+environment-defaults:
+  devops-test-helloworld-app:
+    branch: null
+    repository: null
+  devops-test-helloworld-app-dev:
+    branch: null
+    repository: null
+global:
+  application_name: devops-test-helloworld-app
+  branch: null
+  default_ec2_keyname: aws-eb
+  default_platform: Java 8 running on 64bit Amazon Linux
+  default_region: eu-west-3
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application
